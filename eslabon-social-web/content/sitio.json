@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "nombre": "Fundación Eslabón Social Ecuador",
+    "sigla": "FUNESEC",
+    "lema": "Un enlace entre Guayaquil y Bélgica para la educación, la salud y el campo",
+    "descripcion": "Información independiente sobre la Fundación Eslabón Social Ecuador (FUNESEC): su historia, proyectos en Guayaquil, financiamiento y qué falta por confirmar.",
+    "aviso": "Este es un sitio informativo independiente y no oficial, sin relación con la Fundación Eslabón Social Ecuador. Se elaboró solo con fuentes públicas, que se citan al final.",
+    "actualizado": "2026-11-10"
+  },
+  "inicio": {
+    "titular": "Fundación Eslabón Social Ecuador: qué es y qué se sabe",
+    "bajada": "FUNESEC es una organización sin fines de lucro con base en Guayaquil que trabaja en educación, salud y agricultura. Cuenta con el apoyo de una asociación hermana en Bélgica. Este sitio reúne lo que dicen las fuentes públicas y señala lo que aún falta confirmar.",
+    "cifras": [
+      {
+        "valor": "2005",
+        "etiqueta": "Se construye la Casita Belga, casa de huéspedes que financia los proyectos",
+        "certeza": "confirmado"
+      },
+      {
+        "valor": "2008",
+        "etiqueta": "Se funda en marzo la rama belga, vzw Eslabonsocial België",
+        "certeza": "confirmado"
+      },
+      {
+        "valor": "2011",
+        "etiqueta": "Abre el primer centro de salud con atención médica gratuita",
+        "certeza": "confirmado"
+      },
+      {
+        "valor": "2",
+        "etiqueta": "Centros de salud, en zona urbana y rural, según fuentes posteriores",
+        "certeza": "confirmado"
+      }
+    ],
+    "resumen": [
+      {
+        "titulo": "Qué es",
+        "texto": "La Fundación Eslabón Social Ecuador (FUNESEC) es una organización sin fines de lucro con base en Guayaquil. Trabaja en barrios pobres de la ciudad, sobre todo en Jardín del Salado, y en zonas rurales cercanas.\n\nSu nombre explica su idea: quiere ser el eslabón entre sus miembros en Bélgica, \"el Norte\", y sus amigos ecuatorianos, \"el Sur\"."
+      },
+      {
+        "titulo": "Cómo trabaja",
+        "texto": "Funciona con dos ramas. La fundación ecuatoriana ejecuta los proyectos en Guayaquil y decide sus prioridades, mientras que la asociación belga vzw Eslabonsocial België reúne fondos y voluntarios.\n\nPara no depender siempre de la ayuda de Bélgica, la fundación creó proyectos propios de ingresos. El principal es la Casita Belga, una casa de huéspedes en Guayaquil."
+      },
+      {
+        "titulo": "Por qué importa verificar",
+        "texto": "La mayoría de las fuentes disponibles tienen varios años, y no se pudo confirmar si la fundación sigue activa hoy ni quién integra su junta actual. Además, existen otras organizaciones con nombres parecidos.\n\nPor eso cada dato de este sitio indica su nivel de certeza. Antes de donar, colaborar o citar esta información, conviene consultar los registros oficiales y contactar directamente a la organización."
+      }
+    ]
+  },
+  "historia": {
+    "intro": "La historia de la fundación empieza con un viaje y con una pregunta a la comunidad sobre lo que más necesitaba. Lo que sigue se basa sobre todo en fuentes de la propia organización en Bélgica y en las páginas de la Casita Belga.",
+    "hitos": [
+      {
+        "fecha": "Los inicios",
+        "titulo": "Un viaje a un barrio de Guayaquil",
+        "texto": "Guy Mennen viajó a Guayaquil con jóvenes latinoamericanos, sobre todo ecuatorianos, y llegó a un barrio pobre de la ciudad. La fuente belga escribe su nombre como \"Christelconsuelo\", una grafía dudosa que probablemente es una transcripción; no se pudo identificar el nombre local.",
+        "certeza": "fuente-unica"
+      },
+      {
+        "fecha": "Primeros años",
+        "titulo": "De una sola aula a una escuela",
+        "texto": "La necesidad que más mencionó la comunidad fue la educación. Se compró un terreno y se empezó con una sola aula, que creció hasta convertirse en jardín de infantes y escuela primaria. Más tarde comenzó la construcción de una escuela propiamente dicha.",
+        "certeza": "confirmado"
+      },
+      {
+        "fecha": "2005",
+        "titulo": "Nace la Casita Belga",
+        "texto": "Henry Bolaños y Guy Mennen fundaron la Casita Belga, una casa de huéspedes en Guayaquil. Sus ganancias se destinan a sostener los proyectos de la fundación.",
+        "certeza": "confirmado"
+      },
+      {
+        "fecha": "Marzo de 2008",
+        "titulo": "Se funda la rama belga",
+        "texto": "Personas que habían visitado los proyectos en Ecuador fundaron en Bélgica la asociación vzw Eslabonsocial België. Desde entonces reúne fondos y voluntarios para la fundación en Guayaquil.",
+        "certeza": "confirmado"
+      },
+      {
+        "fecha": "2011",
+        "titulo": "Primer centro de salud",
+        "texto": "Abrió el primer centro de salud de la fundación, con atención médica gratuita. Fue un paso para atender, además de la educación, otra necesidad básica de los barrios.",
+        "certeza": "confirmado"
+      },
+      {
+        "fecha": "Años siguientes",
+        "titulo": "Dos centros de salud",
+        "texto": "Fuentes posteriores hablan de dos centros de salud, uno en zona urbana y otro en zona rural. No se encontró la fecha exacta en que abrió el segundo.",
+        "certeza": "confirmado"
+      },
+      {
+        "fecha": "Noviembre de 2026",
+        "titulo": "Situación actual sin confirmar",
+        "texto": "La mayoría de las fuentes públicas tienen varios años. No se pudo confirmar si la fundación sigue activa hoy, quién integra su junta ni cuál es su dirección exacta.",
+        "certeza": "por-confirmar"
+      }
+    ]
+  },
+  "personas": {
+    "intro": "Una página en español de la Casita Belga nombra a tres personas como fundadoras de \"un proyecto al desarrollo en los barrios más pobres de Guayaquil\". Sobre su papel actual hay poca información pública.",
+    "fundadores": [
+      {
+        "nombre": "Guy Mennen",
+        "rol": "Cofundador y presidente de la asociación belga",
+        "texto": "Es sacerdote de la Diócesis de Amberes, en Bélgica, y preside la asociación belga vzw Eslabonsocial België. Junto con Henry Bolaños fundó la Casita Belga. Un directorio comercial lo registra como contacto principal y representante legal de la fundación.",
+        "certeza": "confirmado"
+      },
+      {
+        "nombre": "Henry Bolaños Rentería",
+        "rol": "Cofundador",
+        "texto": "Figura entre los fundadores del proyecto en Guayaquil. Con Guy Mennen fundó en 2005 la Casita Belga, la casa de huéspedes que ayuda a financiar los proyectos.",
+        "certeza": "confirmado"
+      },
+      {
+        "nombre": "Lutgart Lambert",
+        "rol": "Cofundadora",
+        "texto": "La página en español de la Casita Belga la nombra como cofundadora. Su papel actual en la organización no consta en las fuentes revisadas.",
+        "certeza": "fuente-unica"
+      }
+    ],
+    "gobernanza": {
+      "titulo": "Quién decide",
+      "texto": "Según las fuentes de la organización, las decisiones sobre los proyectos se toman en Ecuador. La junta de la fundación ecuatoriana es mayormente ecuatoriana, y Bélgica aporta apoyo y fondos.",
+      "puntos": [
+        "La junta de la fundación ecuatoriana es mayormente ecuatoriana; el presidente y el responsable financiero son ecuatorianos.",
+        "La fundación en Guayaquil decide las prioridades de los proyectos.",
+        "La asociación belga aporta apoyo, fondos y voluntarios.",
+        "No se encontraron los nombres de los integrantes de la junta actual."
+      ]
+    }
+  },
+  "proyectos": {
+    "intro": "La fundación trabaja en tres áreas en Ecuador: educación, salud y agricultura. Desde Bélgica, además, se organizan viajes y prácticas para conocer los proyectos de cerca.",
+    "areas": [
+      {
+        "id": "educacion",
+        "titulo": "Educación",
+        "resumen": "La educación es el eje principal de la fundación desde sus inicios.",
+        "texto": "Todo empezó con una sola aula, porque la comunidad señaló la educación como su mayor necesidad. Hoy las fuentes describen un jardín de infantes y una escuela primaria, con un grupo de padres que participa.\n\nLa fundación también ofrece formación técnica y profesional para jóvenes de los barrios, donde el desempleo juvenil es alto. Los alumnos reciben una comida diaria.",
+        "puntos": [
+          "Jardín de infantes y escuela primaria, con grupo de padres.",
+          "Formación técnica y profesional para jóvenes de los barrios.",
+          "Una comida diaria para los alumnos."
+        ],
+        "certeza": "confirmado"
+      },
+      {
+        "id": "salud",
+        "titulo": "Salud",
+        "resumen": "La fundación ofrece atención médica y educación en salud de forma gratuita.",
+        "texto": "El primer centro de salud abrió en 2011 con atención médica gratuita. Fuentes posteriores mencionan dos centros, uno en zona urbana y otro en zona rural.\n\nAdemás de la consulta, la fundación imparte educación en salud sobre temas como la diarrea y la anticoncepción, también sin costo.",
+        "puntos": [
+          "Atención médica gratuita.",
+          "Dos centros de salud, en zona urbana y rural.",
+          "Educación en salud gratuita, por ejemplo sobre diarrea y anticoncepción."
+        ],
+        "certeza": "confirmado"
+      },
+      {
+        "id": "agricultura",
+        "titulo": "Agricultura",
+        "resumen": "La fundación apoya a familias campesinas de zonas rurales cercanas a Guayaquil con agua para riego.",
+        "texto": "En las zonas rurales cercanas a Guayaquil, la fundación trabaja en el suministro de agua para riego. Según las fuentes, apoya a unas veinte familias de agricultores.",
+        "puntos": [
+          "Suministro de agua para riego.",
+          "Apoyo a unas veinte familias de agricultores."
+        ],
+        "certeza": "confirmado"
+      },
+      {
+        "id": "intercambio",
+        "titulo": "Intercambio con Bélgica",
+        "resumen": "Desde Bélgica se organizan viajes y prácticas para conocer los proyectos en Ecuador.",
+        "texto": "La rama belga organiza viajes de inmersión a Ecuador y ofrece prácticas para estudiantes. La propia asociación belga nació de personas que habían visitado los proyectos.\n\nUna fuente menciona también una casa de voluntarios vinculada a la organización, sin precisar más detalles.",
+        "puntos": [
+          "Viajes de inmersión a Ecuador.",
+          "Prácticas para estudiantes.",
+          "Una casa de voluntarios, según una sola fuente."
+        ],
+        "certeza": "confirmado"
+      }
+    ]
+  },
+  "financiamiento": {
+    "intro": "La fundación sabe que la ayuda belga no durará indefinidamente. Por eso combina donaciones desde Bélgica con proyectos propios que generan ingresos en Guayaquil.",
+    "fuentes": [
+      {
+        "titulo": "Casita Belga",
+        "texto": "La casa de huéspedes en Guayaquil, abierta en 2005, es el principal proyecto de ingresos. Sus ganancias cubren gastos básicos de los proyectos.",
+        "certeza": "confirmado"
+      },
+      {
+        "titulo": "Donaciones desde Bélgica",
+        "texto": "La asociación belga reúne donaciones, que en Bélgica son deducibles de impuestos. También recibe apoyo de la provincia de Amberes y de los municipios de Puurs-Sint-Amands, Wommelgem y Borsbeek.",
+        "certeza": "confirmado"
+      },
+      {
+        "titulo": "Empresas belgas",
+        "texto": "La firma belga Buysse & Partners menciona a la organización en su sección de responsabilidad social. No hay detalle disponible sobre el tipo o el monto del apoyo.",
+        "certeza": "fuente-unica"
+      }
+    ],
+    "casitaBelga": {
+      "titulo": "La Casita Belga",
+      "texto": "La Casita Belga es una casa de huéspedes en Guayaquil fundada en 2005 por Henry Bolaños y Guy Mennen. Se creó para que los proyectos tuvieran un ingreso propio y no dependieran solo de la ayuda de Bélgica.\n\nAdemás de financiar, funciona como proyecto de empleo para vecinos del barrio.",
+      "puntos": [
+        "Sus ganancias pagan a los profesores.",
+        "Cubren el agua y la electricidad de los proyectos.",
+        "Financian medicación.",
+        "Aseguran una buena comida diaria para los alumnos.",
+        "Da empleo a vecinos."
+      ]
+    },
+    "asuntoAbierto": {
+      "titulo": "Un aporte por aclarar: Grupo Campana",
+      "texto": "La página de impacto de Grupo Campana, grupo inmobiliario de Guayaquil presidido por Pablo Campana, exministro de Producción y Comercio Exterior, declara una contribución de USD 414.821,88. Según esa página, el dinero proviene de utilidades de proyectos inmobiliarios y se destinó \"para desarrollo de obras sociales a través de Fundación Eslabón Social\". No indica fecha ni desglose.\n\nNo se pudo confirmar si ese aporte corresponde a la Fundación Eslabón Social Ecuador (FUNESEC) o a otra entidad de Guayaquil llamada Fundación Eslabón, creada en 2020. Mientras no haya más información, este sitio no atribuye el aporte a ninguna de las dos.",
+      "puntos": [
+        "El monto declarado es USD 414.821,88, sin fecha ni desglose.",
+        "Existe otra entidad en Guayaquil, Fundación Eslabón, creada en 2020; no se sabe si las dos están relacionadas.",
+        "Pablo Campana ha dicho que su grupo se apalanca en capitales de Bélgica, Holanda y Alemania. Es una coincidencia que conviene verificar, no una prueba de vínculo.",
+        "Para aclararlo, lo más directo es consultar a Grupo Campana y a ambas fundaciones."
+      ]
+    }
+  },
+  "lugares": [
+    {
+      "pais": "Ecuador",
+      "lugar": "Guayaquil, Jardín del Salado",
+      "texto": "Guayaquil es la base de la fundación. Su principal barrio de trabajo es Jardín del Salado, con alto desempleo, sobre todo entre los jóvenes. Un directorio comercial da la dirección \"Solar 13, Guayaquil\", que está incompleta.",
+      "certeza": "confirmado"
+    },
+    {
+      "pais": "Ecuador",
+      "lugar": "Zonas rurales cercanas a Guayaquil",
+      "texto": "Allí se encuentran el proyecto de agua para riego, que apoya a unas veinte familias de agricultores, y uno de los centros de salud.",
+      "certeza": "confirmado"
+    },
+    {
+      "pais": "Bélgica",
+      "lugar": "Wommelgem, provincia de Amberes",
+      "texto": "Varias fuentes vinculan la asociación belga con Wommelgem, donde figura una dirección en la calle Torenstraat. El municipio está entre quienes apoyan a la organización.",
+      "certeza": "fuente-unica"
+    },
+    {
+      "pais": "Bélgica",
+      "lugar": "Puurs-Sint-Amands, provincia de Amberes",
+      "texto": "El sitio oficial más reciente de la rama belga da su sede legal en Puurs-Sint-Amands. Este municipio también apoya a la organización, al igual que Borsbeek y la provincia de Amberes.",
+      "certeza": "confirmado"
+    }
+  ],
+  "verificacion": {
+    "intro": "Este sitio separa lo que está bien respaldado de lo que sigue abierto. La investigación se cerró en noviembre de 2026 y no se obtuvieron fotografías de los proyectos.",
+    "confirmado": [
+      "La Fundación Eslabón Social Ecuador (FUNESEC) es una organización sin fines de lucro con base en Guayaquil.",
+      "Trabaja en educación, salud y agricultura, principalmente en Jardín del Salado y en zonas rurales cercanas.",
+      "Tiene una asociación hermana en Bélgica, vzw Eslabonsocial België, fundada en marzo de 2008.",
+      "Guy Mennen, sacerdote de la Diócesis de Amberes, es cofundador y preside la asociación belga.",
+      "La Casita Belga, abierta en 2005, financia parte de los proyectos con sus ganancias.",
+      "El primer centro de salud abrió en 2011, con atención médica gratuita."
+    ],
+    "porConfirmar": [
+      "Si la fundación sigue activa hoy: la mayoría de las fuentes tienen varios años.",
+      "Quiénes integran la junta actual de la fundación ecuatoriana.",
+      "La dirección exacta en Guayaquil; la que figura en un directorio comercial está incompleta.",
+      "El nombre real del primer barrio, que la fuente belga escribe \"Christelconsuelo\".",
+      "A qué entidad se refiere el aporte de USD 414.821,88 que declara Grupo Campana.",
+      "El papel actual de la cofundadora Lutgart Lambert."
+    ],
+    "comoVerificar": [
+      {
+        "titulo": "Registro del MIES",
+        "texto": "El Ministerio de Inclusión Económica y Social (MIES) lleva el registro de organizaciones sociales. Allí se puede comprobar si la fundación está registrada y vigente."
+      },
+      {
+        "titulo": "Consulta de RUC en el SRI",
+        "texto": "La consulta de RUC del Servicio de Rentas Internas (SRI) permite ver si la organización tiene un registro tributario activo y cuál es su dirección declarada."
+      },
+      {
+        "titulo": "Contacto directo",
+        "texto": "El sitio oficial de la rama belga, eslabonsocial.be, es la vía de contacto más clara. Puede servir para preguntar por la situación actual y la junta en Ecuador."
+      },
+      {
+        "titulo": "Comparar nombres y documentos",
+        "texto": "Antes de donar o citar un dato, conviene revisar el nombre completo y la sigla FUNESEC. Así se evita confundirla con otras fundaciones de nombre parecido."
+      }
+    ],
+    "noConfundir": [
+      {
+        "nombre": "Fundación Eslabón (Guayaquil, 2020)",
+        "texto": "Es otra entidad, creada el 2 de marzo de 2020 por resolución MIES-CZ-8-DDG2-2020-0031-R y domiciliada en Guayaquil. Declara programas sociales, educativos, de comunicaciones, salud y construcción, y su actividad visible son musicales bíblicos como El abrazo del Padre (2018) y De Rey a Rey (2024). Usa el sitio fundacioneslabon.com y la cuenta de Instagram @fundacion_eslabon; no se pudo confirmar si tiene relación con FUNESEC."
+      },
+      {
+        "nombre": "Fundación Eslabón (España)",
+        "texto": "Es una organización española dedicada al empleo y la inserción laboral. No tiene relación con la Fundación Eslabón Social Ecuador."
+      }
+    ]
+  },
+  "preguntas": [
+    {
+      "pregunta": "¿Este es el sitio oficial de la fundación?",
+      "respuesta": "No. Es un sitio informativo independiente, hecho con fuentes públicas. El sitio oficial de la rama belga es eslabonsocial.be, en neerlandés."
+    },
+    {
+      "pregunta": "¿Qué significa la sigla FUNESEC?",
+      "respuesta": "Es la sigla de Fundación Eslabón Social Ecuador. Así aparece, por ejemplo, en un directorio comercial que la lista como \"Fundacion Eslabon Social Ecuador - Funesec\"."
+    },
+    {
+      "pregunta": "¿Por qué se llama \"Eslabón\"?",
+      "respuesta": "Porque quiere ser el enlace entre sus miembros en Bélgica, \"el Norte\", y sus amigos ecuatorianos, \"el Sur\"."
+    },
+    {
+      "pregunta": "¿Qué relación tiene con Bélgica?",
+      "respuesta": "La asociación belga vzw Eslabonsocial België, fundada en 2008, reúne fondos y voluntarios. \"vzw\" es la figura belga de asociación sin fines de lucro. Las prioridades de los proyectos las decide la fundación en Ecuador."
+    },
+    {
+      "pregunta": "¿Qué es la Casita Belga?",
+      "respuesta": "Es una casa de huéspedes en Guayaquil, fundada en 2005 por Henry Bolaños y Guy Mennen. Sus ganancias pagan profesores, agua, electricidad, medicación y la comida diaria de los alumnos, y además da empleo a vecinos."
+    },
+    {
+      "pregunta": "¿La fundación sigue activa?",
+      "respuesta": "No se pudo confirmar. La mayoría de las fuentes tienen varios años. Para saberlo, conviene consultar el registro del MIES, el RUC en el SRI o escribir a la organización a través de su sitio belga."
+    },
+    {
+      "pregunta": "¿Recibió la fundación un aporte de Grupo Campana?",
+      "respuesta": "Grupo Campana declara un aporte de USD 414.821,88 \"a través de Fundación Eslabón Social\", sin fecha ni desglose. No se pudo confirmar si se refiere a FUNESEC o a otra Fundación Eslabón creada en Guayaquil en 2020."
+    },
+    {
+      "pregunta": "¿Cómo se puede apoyar o colaborar?",
+      "respuesta": "Desde Bélgica, la asociación recibe donaciones y organiza viajes de inmersión y prácticas para estudiantes. Para cualquier forma de apoyo, lo recomendable es contactar directamente a la organización por su sitio oficial."
+    }
+  ],
+  "fuentes": [
+    {
+      "titulo": "Eslabonsocial, sitio oficial de la rama belga",
+      "url": "https://www.eslabonsocial.be/",
+      "idioma": "neerlandés",
+      "nota": "Fuente principal sobre la asociación belga, su sede legal en Puurs-Sint-Amands y sus apoyos."
+    },
+    {
+      "titulo": "Eslabonsocial: Wie is wie? (Quién es quién)",
+      "url": "https://eslabonsocial.com/wie-is-wie-2/",
+      "idioma": "neerlandés",
+      "nota": "Presenta a las personas vinculadas a la organización."
+    },
+    {
+      "titulo": "Casita Belga: Proyectos",
+      "url": "http://casitabelga.be/Proyectos.html",
+      "idioma": "español",
+      "nota": "Nombra a los tres fundadores y describe el proyecto en los barrios de Guayaquil."
+    },
+    {
+      "titulo": "Casita Belga: Projects",
+      "url": "https://casitabelga.be/Projects.html",
+      "idioma": "inglés",
+      "nota": "Versión en inglés de la página de proyectos de la Casita Belga."
+    },
+    {
+      "titulo": "Casita Belga",
+      "url": "http://casitabelga.be/index_ES.html",
+      "idioma": "español",
+      "nota": "Describe la casa de huéspedes que financia los proyectos."
+    },
+    {
+      "titulo": "11.be: Eslabonsocial apoya a jóvenes en los barrios pobres de Ecuador",
+      "url": "https://11.be/en/4th-pillar/stories/eslabonsocial-support-young-people-in-the-slums-of-ecuador",
+      "idioma": "inglés",
+      "nota": "Reportaje sobre el origen, los proyectos y la forma de trabajo de la organización."
+    },
+    {
+      "titulo": "11.be: perfil de Eslabonsocial",
+      "url": "https://11.be/4depijler/organisaties/eslabonsocial",
+      "idioma": "neerlandés",
+      "nota": "Perfil en la plataforma flamenca 4de Pijler de iniciativas ciudadanas de cooperación."
+    },
+    {
+      "titulo": "Dun & Bradstreet: Fundacion Eslabon Social Ecuador - Funesec",
+      "url": "https://www.dnb.com/business-directory/company-profiles.fundacion_eslabon_social_ecuador_-_funesec.38833fb8fc135384311c3ba6f4a18b50.html",
+      "idioma": "inglés",
+      "nota": "Directorio comercial con dirección incompleta y representante legal; parece generado automáticamente."
+    },
+    {
+      "titulo": "Grupo Campana: Impacto",
+      "url": "https://www.campanaorg.ec/impacto/",
+      "idioma": "español",
+      "nota": "Declara el aporte de USD 414.821,88 a obras sociales a través de Fundación Eslabón Social."
+    },
+    {
+      "titulo": "KCH Comunicación: nota sobre Grupo Campana",
+      "url": "https://kchcomunicacion.com/?p=82126",
+      "idioma": "español",
+      "nota": "Recoge la declaración de Pablo Campana sobre capitales de Bélgica, Holanda y Alemania."
+    },
+    {
+      "titulo": "Fundación Eslabón (otra entidad)",
+      "url": "https://fundacioneslabon.com/",
+      "idioma": "español",
+      "nota": "Sitio de la Fundación Eslabón creada en Guayaquil en 2020, distinta de FUNESEC."
+    },
+    {
+      "titulo": "Instagram @fundacion_eslabon (otra entidad)",
+      "url": "https://www.instagram.com/fundacion_eslabon/",
+      "idioma": "español",
+      "nota": "Cuenta de la otra Fundación Eslabón, centrada en musicales bíblicos."
+    }
+  ]
+}
