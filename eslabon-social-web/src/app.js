@@ -5,7 +5,7 @@ const express = require('express');
 const helmet = require('helmet');
 const compression = require('compression');
 const cookieParser = require('cookie-parser');
-const { rateLimit } = require('express-rate-limit');
+const { rateLimit, ipKeyGenerator } = require('express-rate-limit');
 
 const config = require('./config');
 const security = require('./security');
@@ -72,7 +72,8 @@ function createApp() {
     });
   }
 
-  app.use(compression());
+  // En modo función, la red de Netlify ya comprime las respuestas.
+  if (!config.serverless) app.use(compression());
 
   /* ---------- Archivos estáticos ---------- */
   app.use(express.static(path.join(__dirname, '..', 'public'), {
@@ -89,6 +90,11 @@ function createApp() {
     limit,
     standardHeaders: 'draft-7',
     legacyHeaders: false,
+    // En modo función no hay conexión directa: la IP llega en una cabecera de Netlify.
+    keyGenerator: (req) => {
+      const ip = req.ip || req.get('x-nf-client-connection-ip');
+      return ip ? ipKeyGenerator(ip) : 'desconocido';
+    },
     handler: (req, res, next) => {
       const err = new Error('Demasiadas peticiones. Espera unos minutos y vuelve a intentarlo.');
       err.status = 429;

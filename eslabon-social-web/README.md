@@ -78,3 +78,14 @@ No hay analítica, publicidad ni recursos de terceros.
 ## Compatibilidad
 
 El sitio funciona completo sin JavaScript. Usa HTML y CSS estándar (flexbox y grid), tipografías del sistema, tema claro y oscuro, y respeta las preferencias de movimiento reducido y alto contraste.
+
+## Desplegar en Netlify
+
+El repositorio incluye `netlify.toml` (en la raíz) y un adaptador en `netlify/functions/server.js` que ejecuta la misma aplicación como función.
+
+1. En Netlify: **Add new site → Import an existing project → GitHub** y elige este repositorio.
+2. En **Branch to deploy** elige la rama que quieras probar. El resto de la configuración se lee de `netlify.toml`.
+3. En **Environment variables** añade `SESSION_SECRET` con un valor aleatorio de 32 caracteres o más.
+4. Pulsa **Deploy**. Netlify da una dirección `https://…netlify.app` para probar.
+
+Límites en Netlify: los mensajes del formulario se escriben en `/tmp` y **no se conservan**, y el límite de peticiones se cuenta por instancia. Para uso real conviene guardar los mensajes en un almacén persistente o usar un servidor Node normal.

@@ -23,13 +23,13 @@ module.exports = {
   secret,
   port: Number(process.env.PORT) || 3000,
   host: process.env.HOST || '0.0.0.0',
-  siteUrl: (process.env.SITE_URL || 'http://localhost:3000').replace(/\/+$/, ''),
+  siteUrl: (process.env.SITE_URL || process.env.DEPLOY_PRIME_URL || process.env.URL || 'http://localhost:3000').replace(/\/+$/, ''),
   contactEmail: process.env.CONTACT_EMAIL || '',
   contactLimit: Number(process.env.CONTACT_LIMIT) || 5,
+  serverless: process.env.SERVERLESS === '1',
   forceHttps: process.env.FORCE_HTTPS === '1',
   trustProxy: trustProxy(),
   dataDir: process.env.DATA_DIR || path.join(__dirname, '..', 'data'),
-  contentFile: path.join(__dirname, '..', 'content', 'sitio.json'),
   // El prefijo __Host- obliga al navegador a aceptar la cookie solo con Secure, Path=/ y sin Domain.
   cookieName: (name) => (prod ? `__Host-${name}` : name),
 };

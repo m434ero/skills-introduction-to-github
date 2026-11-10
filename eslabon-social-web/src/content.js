@@ -1,7 +1,5 @@
 'use strict';
 
-const fs = require('node:fs');
-const config = require('./config');
 
 const CERTEZAS = ['confirmado', 'fuente-unica', 'por-confirmar'];
 
@@ -61,8 +59,9 @@ function validate(c) {
   return c;
 }
 
-function load(file = config.contentFile) {
-  return validate(JSON.parse(fs.readFileSync(file, 'utf8')));
+/** Se carga con require para que el empaquetador de funciones incluya el archivo. */
+function load() {
+  return validate(require('../content/sitio.json'));
 }
 
 module.exports = { load, validate, CERTEZAS };
