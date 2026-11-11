@@ -10,8 +10,8 @@
   --marca: #0f4c4a;
   --marca-fuerte: #0a3635;
   --sobre-marca: #f6efe0;
-  --acento: #e3a72f;
-  --acento-tinta: #3a2a00;
+  --acento: #f28a1e;
+  --acento-tinta: #2b1500;
   --enlace: #0c5a57;
   --borde: #e2d9c6;
   --ok-fondo: #dff0e4;
@@ -136,7 +136,7 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fo
 .encabezado__acciones form { margin: 0; display: flex; }
 
 .logo { display: flex; align-items: center; gap: .7rem; color: var(--tinta); text-decoration: none; min-width: 0; }
-.logo__marca { flex: none; color: var(--enlace); }
+.logo__marca { flex: none; width: auto; height: 3.5rem; padding: .25rem; background: #fff8ec; border-radius: 12px; }
 .logo__texto { display: flex; flex-direction: column; line-height: 1.15; }
 .logo__texto strong { font-family: var(--serif); font-size: 1.2rem; }
 .logo__texto span { font-size: .78rem; color: var(--tinta-suave); letter-spacing: .04em; text-transform: uppercase; }
@@ -179,7 +179,7 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fo
 .boton--secundario { background: transparent; color: var(--tinta); border-color: var(--borde); }
 .boton--secundario:hover { background: var(--tinte); border-color: var(--tinta-suave); }
 .boton--acento { background: var(--acento); border-color: var(--acento); color: var(--acento-tinta); }
-.boton--acento:hover { background: #f0b944; border-color: #f0b944; }
+.boton--acento:hover { background: #f79d3d; border-color: #f79d3d; }
 .boton--fantasma { background: transparent; border-color: rgba(246, 239, 224, .55); color: var(--sobre-marca); }
 .boton--fantasma:hover { background: rgba(246, 239, 224, .12); border-color: var(--sobre-marca); }
 
@@ -187,7 +187,7 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fo
 
 .portada {
   background: var(--marca);
-  background-image: radial-gradient(circle at 85% 20%, rgba(227, 167, 47, .22), transparent 55%), linear-gradient(160deg, #0f4c4a, #0a3635);
+  background-image: radial-gradient(circle at 85% 20%, rgba(242, 138, 30, .25), transparent 55%), linear-gradient(160deg, #0f4c4a, #0a3635);
   color: var(--sobre-marca);
   padding: 3.5rem 0 4rem;
 }
@@ -195,8 +195,9 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fo
 .portada h1 { color: #fff; }
 .portada__bajada { font-size: 1.15rem; max-width: 38rem; color: #e4ebe4; }
 .portada__acciones { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1.6rem 0 0; }
-.portada__dibujo { max-width: 22rem; justify-self: center; width: 100%; }
-.portada__dibujo svg { display: block; width: 100%; }
+.portada__dibujo { max-width: 21rem; justify-self: center; width: 100%; margin: 0; padding: 1.5rem 1.5rem 1rem; background: #fff8ec; border-radius: 28px; box-shadow: 0 18px 50px rgba(0, 0, 0, .3); text-align: center; }
+.portada__dibujo img { display: block; width: 100%; height: auto; }
+.portada__dibujo figcaption { margin-top: .8rem; font-family: var(--serif); font-size: .95rem; color: #6b3d14; letter-spacing: .04em; }
 
 .antetitulo {
   display: flex; flex-wrap: wrap; align-items: center; gap: .6rem;
@@ -483,7 +484,7 @@ input[type="checkbox"] { width: 1.25rem; height: 1.25rem; margin: .2rem 0 0; fle
 }
 
 @media print {
-  .franja, .encabezado, .pie, .aviso-cookies, .saltar, .portada__acciones, .portada__dibujo, .indice { display: none !important; }
+  .franja, .encabezado, .pie, .aviso-cookies, .saltar, .portada__acciones, .indice { display: none !important; }
   body { background: #fff; color: #000; font-size: 11pt; }
   .portada, .cabecera, .seccion--tinte, .llamada { background: none !important; color: #000; border: 0; }
   .portada h1, .llamada h2 { color: #000; }

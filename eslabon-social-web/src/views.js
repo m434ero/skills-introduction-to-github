@@ -30,7 +30,6 @@ const CERTEZA = {
 /* ---------- Piezas ---------- */
 
 const ICONS = {
-  logo: '<svg class="logo__marca" viewBox="0 0 48 32" width="48" height="32" aria-hidden="true" focusable="false"><rect x="3" y="7" width="26" height="18" rx="9" fill="none" stroke="#e3a72f" stroke-width="5"/><rect x="19" y="7" width="26" height="18" rx="9" fill="none" stroke="currentColor" stroke-width="5"/><path d="M19 16a9 9 0 0 1 2.6-6.3" fill="none" stroke="#e3a72f" stroke-width="5"/></svg>',
   educacion: '<svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-4.5"/><path d="M22 9v5"/></svg>',
   salud: '<svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.600-7 10-7 10z"/><path d="M12 9v5M9.500 11.500h5"/></svg>',
   agricultura: '<svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21V10"/><path d="M12 13c-4 0-6-2-6-6 4 0 6 2 6 6z"/><path d="M12 10c0-3.500 2-5.500 6-5.500 0 3.500-2 5.500-6 5.500z"/><path d="M5 21h14"/></svg>',
@@ -99,6 +98,7 @@ ${noindex ? raw('<meta name="robots" content="noindex">') : ''}
 <meta name="csrf-token" content="${ctx.csrf}">
 <meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="#0f4c4a">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="format-detection" content="telephone=no">
 <link rel="canonical" href="${canonical}">
 <meta property="og:type" content="website">
@@ -106,8 +106,9 @@ ${noindex ? raw('<meta name="robots" content="noindex">') : ''}
 <meta property="og:title" content="${fullTitle}">
 <meta property="og:description" content="${desc}">
 <meta property="og:url" content="${canonical}">
-<meta property="og:image" content="${ctx.siteUrl}/img/compartir.svg">
-<link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+<meta property="og:image" content="${ctx.siteUrl}/img/compartir.png">
+<link rel="icon" href="/img/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/img/favicon.png">
 <link rel="stylesheet" href="/css/styles.css?v=${v}">
 <script src="/js/app.js?v=${v}" defer></script>
 </head>
@@ -117,7 +118,7 @@ ${noindex ? raw('<meta name="robots" content="noindex">') : ''}
 <header class="encabezado">
   <div class="contenedor encabezado__fila">
     <a class="logo" href="/" aria-label="${meta.nombre}, inicio">
-      ${icon('logo')}
+      <img class="logo__marca" src="/img/logo-112.png" width="59" height="56" alt="">
       <span class="logo__texto"><strong>Eslabón Social</strong><span>Ecuador · ${meta.sigla}</span></span>
     </a>
     <div class="encabezado__acciones">
@@ -145,6 +146,7 @@ ${body}
       <p class="pie__titulo">${meta.nombre}</p>
       <p>${meta.lema}</p>
       <p class="pie__aviso">${meta.aviso}</p>
+      <p class="pie__aviso">El logotipo pertenece a Eslabón Social y se muestra solo para identificar a la organización.</p>
     </div>
     <nav aria-label="Secciones principales">
       <p class="pie__titulo">Secciones</p>
@@ -187,17 +189,10 @@ function inicio(ctx) {
           <a class="boton boton--fantasma" href="/verificacion">Qué está verificado</a>
         </p>
       </div>
-      <div class="portada__dibujo" aria-hidden="true">
-        <svg viewBox="0 0 360 260" focusable="false">
-          <rect x="30" y="70" width="190" height="120" rx="60" fill="none" stroke="#e3a72f" stroke-width="26"/>
-          <rect x="140" y="70" width="190" height="120" rx="60" fill="none" stroke="#f6efe0" stroke-width="26"/>
-          <path d="M140 130a60 60 0 0 1 17.600-42.400" fill="none" stroke="#e3a72f" stroke-width="26"/>
-          <text x="76" y="232" fill="#f6efe0" font-size="15" font-family="Georgia, serif" text-anchor="middle">Guayaquil</text>
-          <text x="284" y="232" fill="#f6efe0" font-size="15" font-family="Georgia, serif" text-anchor="middle">Amberes</text>
-          <circle cx="76" cy="40" r="5" fill="#e3a72f"/><circle cx="284" cy="40" r="5" fill="#f6efe0"/>
-          <path d="M84 40h192" stroke="#f6efe0" stroke-width="1.500" stroke-dasharray="3 7" opacity=".6"/>
-        </svg>
-      </div>
+      <figure class="portada__dibujo">
+        <img src="/img/logo.png" width="380" height="363" alt="Logotipo de Eslabón Social: figuras humanas que sostienen juntas un corazón.">
+        <figcaption>Guayaquil <span aria-hidden="true">·····</span> Amberes</figcaption>
+      </figure>
     </div>
   </section>
 

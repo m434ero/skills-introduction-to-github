@@ -82,7 +82,7 @@ function createApp() {
     dotfiles: 'ignore',
     setHeaders: (res) => res.set('X-Content-Type-Options', 'nosniff'),
   }));
-  app.get('/favicon.ico', (req, res) => res.redirect(301, '/img/favicon.svg'));
+  app.get('/favicon.ico', (req, res) => res.redirect(301, '/img/favicon.png'));
 
   /* ---------- Límites y lectura de peticiones ---------- */
   const limiter = (limit, windowMs) => rateLimit({
